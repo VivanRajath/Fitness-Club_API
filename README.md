@@ -53,6 +53,7 @@ pip install -r requirements.txt
 ### 4. Apply Migrations
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -105,7 +106,7 @@ GET /api/bookings/?email=john@example.com
 ## 🧪 Run Tests
 
 ```bash
-python manage.py test
+python manage.py test bookings
 ```
 
 ---
